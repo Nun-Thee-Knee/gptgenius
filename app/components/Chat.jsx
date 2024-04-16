@@ -14,6 +14,7 @@ const Chat = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(text)
     createMessage(text); // Use createMessage instead of mutate
     setText(""); // Clear the input after submission if needed
   };
